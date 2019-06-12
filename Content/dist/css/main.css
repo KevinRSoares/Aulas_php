@@ -1,0 +1,139 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 59px;
+  background-color: #f7f2ea;
+  min-height: 100%;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+#logo{
+  width: 50px;
+  height: 50px;
+}
+.btn{
+  margin: 0px 0px 0px 2px;
+}
+
+.card{
+  margin-top: 5%;  
+  margin-left: 1%;  
+  box-shadow: -2px 2px 28px 8px rgba(138,136,138,1);
+  box-shadow: -2px 2px 28px 8px rgba(138,136,138,1);
+  box-shadow: -2px 2px 28px 8px rgba(138,136,138,1);
+}
+
+.cest{
+  margin: 0% 1% 0% 0%;
+}
+
+.form-inline{
+  display: contents;
+}
+
+
+.loader {
+  border: 10px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 10px solid #212529;
+  width: 120px;
+  height: 120px;
+  margin-left: 40%;
+  margin-right: 40%;
+  -webkit-animation: spin 1s linear infinite; /* Safari */
+  animation: spin 1s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+@media (min-width: 576px){
+  .modal-dialog {
+      max-width: 700px;
+      margin: 1.75rem auto;
+  }
+}
+.container{
+  padding-left: 0px; 
+}
+.cardRet{
+  box-shadow: none;
+}
+.modal-body{
+  padding: 0px 0rem 0rem 1rem !important;
+
+}
+.retirada a{
+  text-decoration: none;
+}
+
+
+.itcest{
+  padding: 2% 1% 1% 2%;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.cadvolqtd{
+  padding: 2% 0% 0% 0%;
+}
+
+.qtd{
+  margin-top: 1.5%;
+}
+
+.cadastroUsu{
+  padding: 1rem 1rem 1rem 1rem !important;
+}
+.retirada{
+  margin-top: 5%;  
+  margin-left: 1%;  
+  box-shadow: -0px 0px 0px 0px rgba(225,225,225);
+  border: 0.5px solid #6b6d70;
+}
+
+.btns{
+  float: right  ;
+}
+.campoSenha{
+  margin-top: 1%;
+  max-width: 97%;
+}
+.saMerda{
+  float: left;
+}
